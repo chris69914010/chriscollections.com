@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", calibri;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('sexy02.jpg') no-repeat;
+    background: url('images/sexy02.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(5px);
@@ -32,7 +32,7 @@ body {
     }
 
     50% {
-        background-image: url(sexy04.jpg);
+        background-image: url(sexy10.jpg);
     }
 }
 
