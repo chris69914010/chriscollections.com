@@ -24,15 +24,15 @@ body {
 
     0%,
     100% {
-        background-image: url(sexy02.jpg);
+        background-image: url(images/sexy02.jpg);
     }
 
     25% {
-        background-image: url(sexy03.jpg);
+        background-image: url(images/sexy03.jpg);
     }
 
     50% {
-        background-image: url(sexy10.jpg);
+        background-image: url(images/sexy10.jpg);
     }
 }
 
