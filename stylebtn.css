@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(sexy02.jpg) no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
+
+
+button {
+    background-color: rgba(173, 99, 243, 0.14);
+    color: rgb(253, 191, 76);
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+}
