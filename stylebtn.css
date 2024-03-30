@@ -18,36 +18,16 @@ body {
 
 @keyframes bgChange {
 
-    0%,
+    0%
     100% {
-        background-image: url(images/sexy04.jpg);
+        background-image: url(imgaes/sexy04.jpg);
     }
 
     25% {
         background-image: url(images/sexy05.jpg);
     }
-
-    50% {
-        background-image: url(images/sexy06.jpg);
-    }
-
-    75% {
-        background-image: url(images/sexy07.jpg);
-    }
-
-    100% {
-        background-image: url(images/sexy08.jpg);
-    }
-
-    125% {
-        background-image: url(images/sexy09.jpg);
-    }
-
-    150% {
-        background-image: url(images/sexy11.jpg);
-    }
 }
-
+    
 button {
     background-color: rgba(173, 99, 243, 0.14);
     color: rgb(253, 191, 76);
