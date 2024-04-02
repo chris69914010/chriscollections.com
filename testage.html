@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris' Collections</title>
+    <link rel="stylesheet" href="testagestyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo-wrapper">
+            <img src="images/ccs_logo.png" alt="Chris' Collections" width="264" height="64">
+        </div>
+        <h2>Age Verification</h2>
+        <p>This website contains age-restricted materials including nudity and explicit depictions of sexual activity.
+            By entering, you affirm that you are at least 21 years of age or the age of majority in the jurisdiction you
+            are accessing the website from and you consent to viewing sexually explicit content.</p>
+        <button onclick="enterBtn()">I am 21 or older - Enter</button>
+        <a href="https://www.google.com">I am under 21 - Exit</a>
+
+        <div class="parental-control-message">
+            <p>
+                Our <a href="https://www.asacp.org/index.html?content=parental_guidelines" target="_blank"
+                    rel="noopener nofollow">parental controls page</a> explains how you can easily block access to
+                this site.
+            </p>
+
+            <span class="block-copyright">© Chris' Collections 2024</span>
+        </div>
+    </div>
+
+    <script>
+        function enterBtn() {
+            // Proceed to adult site
+            window.location.href = "web.html";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/sexy05.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
+}
+
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    background: #161617;
+    border: 1px solid #4b4b4b;
+    padding: 4px;
+    margin: 10px;
+    text-align: center
+}
+
+.logo-wrapper {
+    margin-top: 20px;
+    justify-content: center;
+    padding: 6px 4px;
+    position: relative;
+    top: 20px;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+p {
+    font-family: arial;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #cacaca;
+    margin-top: 20px;
+}
+
+.parental-control-message {
+    margin-top: -90px;
+    line-height: 60px;
+
+}
+
+.parental-control-message a {
+    display: contents;
+    color: #ec567c;
+}
+
+.parental-control-message a:hover {
+    color: #e33561
+}
+
+.parental-control-message .block-copyright {
+    position: relative;
+    bottom: 10px;
+    color: #707070
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button,
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 120px 10px;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    font-family: arial;
+    padding: 16px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e33561;
+    margin-top: 70px;
+}
+
+a {
+    font-family: arial;
+    padding: 16px 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #676767;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.8;
+}
